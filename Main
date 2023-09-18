@@ -1,10 +1,10 @@
-var nome: String? = "Jobs"
-let constante = "Steve"
+let primeironome = "Steve"
+var ultimonome: String? = "Jobs"
 
-// Primeiro, fazemos a interpolação da constante com a variável, definindo um valor padrão.
-print("Nome completo: \(constante) \(nome ?? "Wozniak")")
 
-// Em seguida, usamos optional binding para verificar se a variável é nula e, se não for, fazemos outra interpolação.
-if let nomeDesembrulhado = nome {
-    print("Nome desembrulhado: \(constante) \(nomeDesembrulhado)")
+print("Nome completo: \(primeironome) \(ultimonome ?? "Wozniak")")
+
+
+if let nomeDesembrulhado = ultimonome {
+    print("Nome desembrulhado: \(primeironome) \(nomeDesembrulhado)")
 }
